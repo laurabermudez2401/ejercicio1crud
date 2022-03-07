@@ -1,3 +1,55 @@
 body{
        background-image: url("https://3.bp.blogspot.com/-f7yq2JlXJso/V-nHd2d2LBI/AAAAAAAAAlY/yBdzK0Td1f0PNoWF6PH_CR4kqPlBHg6cQCLcB/s1600/10370.jpg");
 }
+
+/* main */
+
+.grid-elementos {
+    justify-content: center;
+}
+
+.elementos {
+    width: 20%;
+}
+
+.card {
+    border: none;
+}
+
+.card-img {
+    border-radius: 16px;
+    border: none;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 300px;
+}
+
+.card-title {
+    color: white;
+    margin-top: 115%;
+}
+
+.card-text {
+    color: #CDCDCD;
+}
+
+.card-img-overlay {
+    width: 200px !important;
+    height: 300px !important;
+    box-shadow: inset 0px -51px 40px -15px #000000;
+    border-radius: 16px;
+}
+
+.bg-dark {
+    background-color: rgba(33, 37, 41, 0) !important;
+}
+
+.titulo {
+    padding-right: 40px;
+}
+
+.columna1, .columna2 {
+    margin-left: 165px;
+    margin-right: 135px;
+    width: 324px !important;
+}

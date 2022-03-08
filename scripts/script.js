@@ -9,7 +9,7 @@ const getElementos = async (url)=>{
     const resp = await fetch (url)
     const data = await resp.json()
     data.forEach(element => {
-        const{name, imagen, genero } = element;
+        const{name, img, genero } = element;
 
         mostrarElementos.innerHTML += `
         <div class="col elementos">
@@ -29,6 +29,6 @@ const getElementos = async (url)=>{
 }
 
 btnCategory1.addEventListener('click', ()=>{
-    getElementos('')
+    getElementos('https://crudmariobros.herokuapp.com/mariobros')
 })
 

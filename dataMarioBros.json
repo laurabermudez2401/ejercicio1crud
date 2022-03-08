@@ -4,43 +4,43 @@
             "id": 1,
             "name" : "Mario",
             "genero": "Masculino",
-            "img": "https://static.wikia.nocookie.net/mario/images/d/d7/SMO_Art_-_Mario.png/revision/latest/scale-to-width-down/1000?cb=20170114200910&path-prefix=es"
+            "img": "./img/mario.png"
         },
         {
             "id": 2,
             "name" : "Luigi",
             "genero": "Masculino",
-            "img": "https://static.wikia.nocookie.net/mario/images/6/6d/Luigi.png/revision/latest?cb=20120428023844&path-prefix=es"
+            "img": "./img/luigi.png"
         },
         {
             "id": 3,
             "name" : "Princesa Peach",
             "genero": "Femenino",
-            "img": "https://static.wikia.nocookie.net/mario/images/4/46/PeachMarioPartySuperstars.png/revision/latest?cb=20211209203004&path-prefix=es"
+            "img": "./img/princesa.png"
         },
         {
             "id": 4,
-            "name" : "Browser",
+            "name" : "Bowser",
             "genero": "Masculino",
-            "img": "https://static.wikia.nocookie.net/mario/images/b/b4/BowserArtwork.png/revision/latest?cb=20211209065155&path-prefix=es"
+            "img": "./img/bowser.png"
         },
         {
             "id": 5,
             "name" : "Yoshi",
             "genero": "Masculino",
-            "img": "https://static.wikia.nocookie.net/mario/images/4/4d/Yoshi_-_Mario_Party_10.png/revision/latest/scale-to-width-down/1000?cb=20171012174642&path-prefix=es"
+            "img": "./img/yoshi.png"
         },
         {
             "id": 6,
             "name" : "Toad",
-            "genero": "Femenino",
-            "img": "https://static.wikia.nocookie.net/mario/images/2/2c/Toad_super_mario.png/revision/latest/scale-to-width-down/1000?cb=20161129175624&path-prefix=es"
+            "genero": "Masculino",
+            "img": "./img/toad.png"
         },
         {
             "id": 7,
             "name" : "Princesa Rosalina",
             "genero": "Femenino",
-            "img": "https://static.wikia.nocookie.net/mario/images/5/56/Rosalina-MPTop100-Transparent.png/revision/latest?cb=20171120160921&path-prefix=es"
+            "img": "./img/rosalina.png"
         }         
     ]
 }

@@ -32,8 +32,8 @@ formulario.addEventListener('submit', async e => {
 
 btnCorreo.addEventListener('click', async () => {
 
-		document.getElementById('id').style.display = 'block'
-    document.getElementById('label-edit').style.display = 'block'
+		document.getElementById('id').style.display = 'inline-block'
+    document.getElementById('label-edit').style.display = 'inline-block'
     
     let email = document.getElementById('email').value
 

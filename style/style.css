@@ -1,68 +1,66 @@
 body{
        background-image: url("https://3.bp.blogspot.com/-f7yq2JlXJso/V-nHd2d2LBI/AAAAAAAAAlY/yBdzK0Td1f0PNoWF6PH_CR4kqPlBHg6cQCLcB/s1600/10370.jpg");
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* main */
+.Headline1{
+    text-align: center;
+    margin-bottom: 7%;
+    font-weight: 800;
 
-.grid-elementos {
-    justify-content: center;
-}
-
-.elementos {
-    width: 20%;
-}
-
-.card {
-    border: none;
-}
-
-.card-img {
-    border-radius: 16px;
-    border: none;
-    margin-bottom: 15px;
-    width: 200px;
-    height: 300px;
-}
-
-.card-title {
-    color: white;
-    margin-top: 115%;
-}
-
-.card-text {
-    color: #CDCDCD;
-}
-
-.card-img-overlay {
-    width: 200px !important;
-    height: 300px !important;
-    box-shadow: inset 0px -51px 40px -15px #000000;
-    border-radius: 16px;
-}
-
-.bg-dark {
-    background-color: rgba(33, 37, 41, 0) !important;
-}
-
-.titulo {
-    padding-right: 40px;
-}
-
-.columna1, .columna2 {
-    margin-left: 165px;
-    margin-right: 135px;
-    width: 324px !important;
 }
 
 .div-usuario{
-    background-color: rgb(188, 188, 247);
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 40%;
+    padding: 2%;
+    background-color: rgb(83, 119, 119);
     margin: 0 auto;
+    margin-top: 4%;
+    border-radius: 20px;
+    text-align: center;
 }
 
 form{
-    padding: 5%;
+    text-align: center;
+
+}
+
+.form-control{
+    width: 50%;
+    border-radius: 5px;
+    padding: 2%;
+    font-size: 1rem;
+    margin-bottom: 4%;
+    margin-left: 2%;
+}
+
+.form-label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+
+.conteBotones{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.atras{
+    background-color: blue;
+    padding: 2% 6%;
+    border-radius: 5%;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.buttom{
+    padding: 2%;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: rgb(211, 208, 205);
+    font-weight: 600;
 }

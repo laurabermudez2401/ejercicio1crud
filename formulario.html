@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,61 +8,67 @@
     <link rel="stylesheet" href="./style/style.css">
     <title>Document</title>
 </head>
+
 <body>
 
     <div class="div-usuario">
         <!-- contenedor para ver los datos -->
         <div class="row usuario">
-            <h1 class="Headline1">Crear Tu Personaje </h1>
-            <div class="col datos">
-
-            </div>
-        </div></a>
+            <h1 class="Headline1">Registrate Para Más Información</h1>
+        </div>
         <!-- formulario -->
         <form id="formulario">
             <div class="campo">
                 <label for="name" class="form-label body1Regular label-edit">Nombre</label>
-                <input id="name" name="name" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
+                <input id="name" name="name" class="ms-1 edit body1Regular form-control" type="text"
+                    placeholder="Nombre">
             </div>
             <div class="campo">
-                <label for="lastName" class="form-label body1Regular label-edit">Genero</label>
+                <label for="lastName" class="form-label body1Regular label-edit">Apellido</label>
                 <input id="lastName" name="lastName" class="ms-1 edit body1Regular form-control" type="text"
-                    placeholder="">
-            
+                    placeholder="Apellido">
+            </div>
+
+            <div class="campo">
+                <label for="email" class="form-label body1Regular label-edit">Correo</label>
+                <input id="email" name="email" class="ms-1 edit body1Regular form-control" type="text"
+                    placeholder="Correo">
+            </div>
+
             <div class="campo">
                 <label id="label-edit" for="id" class="form-label body1Regular label-edit">Id</label>
-                <input id="id" name="id" class="ms-1 edit body1Regular form-control" type="text" placeholder=""
+                <input id="id" name="id" class="ms-1 edit body1Regular form-control" type="text" placeholder="Id"
                     readonly>
             </div>
             <!-- botones -->
-            <div class="">
-                <button id="btnGuardar" type="submit"
-                    class="btn btn-secondary buttom guardar-cambios">Guardar</button>
-            </div>
-            <div class="">
+            <div class="conteBotones">
+
+                <button id="btnGuardar" type="submit" class="btn btn-secondary buttom guardar-cambios">Guardar</button>
+
                 <button id="btnCorreo" type="button" class="btn btn-secondary buttom guardar-cambios">Buscar por
                     correo</button>
-            </div>
-            <div class="">
-                <button id="btnEditar" type="button"
-                    class="btn btn-secondary buttom guardar-cambios">Editar</button>
-            </div>
-            <div class="">
+
+
+                <button id="btnEditar" type="button" class="btn btn-secondary buttom guardar-cambios">Editar</button>
+
+
                 <button id="btnEliminar" type="button"
                     class="btn btn-secondary buttom guardar-cambios">Eliminar</button>
+
             </div>
         </form>
 
         <br><br>
 
-        <a href="./index.html">Atrás</a>
+        <a class="atras" href="./index.html">Atrás</a>
     </div>
 
-    
 
 
 
 
-    <script src="./scripts/script.js"></script>
+
+    <script src="./scripts/registros.js"></script>
 </body>
+
 </html>

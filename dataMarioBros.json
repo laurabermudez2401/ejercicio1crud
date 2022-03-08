@@ -42,5 +42,19 @@
             "genero": "Femenino",
             "img": "./img/rosalina.png"
         }         
+    ],
+    "usuarios": [
+        {
+            "id": 1,
+            "nombre": "PepitoEditado",
+            "apellido": "PerezEditado",
+            "correo": "pepito@gmail.com"
+        },
+        {
+            "nombre": "Patico",
+            "apellido": "Torres",
+            "correo": "sara@gmail.com",
+            "id": 2
+        }
     ]
 }

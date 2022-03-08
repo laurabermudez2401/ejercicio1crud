@@ -9,95 +9,70 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
     <link rel="stylesheet" href="style/style.css">
-    
+
     <title>SuperMario Bros</title>
 </head>
 
 <body id="home">
     <header>
-        <!-- contenedor principal -->
-        <div class="container-fluid">
-            <!-- titulo -->
-            <div class="row">
-                <div class="col mt-5 titulo">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/MarioBros-sideart.svg/500px-MarioBros-sideart.svg.png" alt="">
-                    <h1 class="Headline1">Los mejores personajes a un click</h1>
-                </div>
-            </div>
-            <!-- contenedor de categorias -->
-            <div class="row btn-categorias">
-                <!-- titulo de las categoria -->
-                <div class="col mt-3">
-                    <h2 class="subtitle1 div-categorias">Personajes MarioBros</h2>
-                </div>
-                <!-- categorias -->
+        <center>
+            <!-- contenedor principal -->
+            <div class="container-fluid">
+                <!-- titulo -->
                 <div class="row">
-                    <!-- categoria1 -->
-                    <div class="col-12 mx-1">
-                        <button id="btnCategory1" class="btn-categoria-1 btn btn-secondary">
-                            <div class="row">
-                                <div class="col">
-                                    <img src="https://1000marcas.net/wp-content/uploads/2020/02/Logo-Marvel-.png"
-                                        width="100px">
-                                </div>
-                            </div>
-                        </button>
+                    <div class="col mt-5 titulo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/MarioBros-sideart.svg/500px-MarioBros-sideart.svg.png"
+                            alt="">
+                        <h1 class="Headline1">Los mejores personajes a un click</h1>
                     </div>
+                </div>
+                <!-- contenedor de categorias -->
+                <div class="row btn-categorias">
+                    <!-- titulo de las categoria -->
+                    <div class="col mt-3">
+                        <h2 class="subtitle1 div-categorias">Personajes MarioBros</h2>
+                    </div>
+                    <!-- categorias -->
+                    <div class="row">
+                        <!-- categoria1 -->
+                        <div class="col-6 mx-1">
+                            <button id="btnCategory1" class="btn-categoria-1 btn btn-secondary">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="https://1000marcas.net/wp-content/uploads/2020/02/Logo-Marvel-.png"
+                                            width="100px">
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
 
+                        <!-- categoria2 -->
+                        <a href="./formulario.html">
+                            <div class="col-5 mx-1">
+                                <button id="btnCategory2" class="btn-categoria-2 btn btn-secondary">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img src="https://thumbs.dreamstime.com/z/contact-form-icon-vector-write-edit-filled-flat-sign-solid-pictogram-isolated-white-symbol-logo-illustration-pixel-perfect-162700207.jpg"
+                                                width="55px">
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
     </header>
+    </center>
     <main>
         <div class="container-fluid mt-4 mb-3">
             <div class="row row-cols-2 row-cols-md-2 g-4 grid-elementos">
 
             </div>
         </div>
-        <div class="div-usuario">
-            <!-- contenedor para ver los datos -->
-            <div class="row usuario">
-                <h1 class="Headline1">Crear Tu Personaje </h1>
-                <div class="col datos">
-
-                </div>
-            </div>
-            <!-- formulario -->
-            <form id="formulario">
-                <div class="campo">
-                    <label for="name" class="form-label body1Regular label-edit">Nombre</label>
-                    <input id="name" name="name" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
-                </div>
-                <div class="campo">
-                    <label for="lastName" class="form-label body1Regular label-edit">Genero</label>
-                    <input id="lastName" name="lastName" class="ms-1 edit body1Regular form-control" type="text"
-                        placeholder="">
-                
-                <div class="campo">
-                    <label id="label-edit" for="id" class="form-label body1Regular label-edit">Id</label>
-                    <input id="id" name="id" class="ms-1 edit body1Regular form-control" type="text" placeholder=""
-                        readonly>
-                </div>
-                <!-- botones -->
-                <div class="">
-                    <button id="btnGuardar" type="submit"
-                        class="btn btn-secondary buttom guardar-cambios">Guardar</button>
-                </div>
-                <div class="">
-                    <button id="btnCorreo" type="button" class="btn btn-secondary buttom guardar-cambios">Buscar por
-                        correo</button>
-                </div>
-                <div class="">
-                    <button id="btnEditar" type="button"
-                        class="btn btn-secondary buttom guardar-cambios">Editar</button>
-                </div>
-                <div class="">
-                    <button id="btnEliminar" type="button"
-                        class="btn btn-secondary buttom guardar-cambios">Eliminar</button>
-                </div>
-            </form>
-        </div>
     </main>
+
+
 
     <script src="./scripts/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

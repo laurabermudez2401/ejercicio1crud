@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="div-usuario">
+        <!-- contenedor para ver los datos -->
+        <div class="row usuario">
+            <h1 class="Headline1">Crear Tu Personaje </h1>
+            <div class="col datos">
+
+            </div>
+        </div></a>
+        <!-- formulario -->
+        <form id="formulario">
+            <div class="campo">
+                <label for="name" class="form-label body1Regular label-edit">Nombre</label>
+                <input id="name" name="name" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
+            </div>
+            <div class="campo">
+                <label for="lastName" class="form-label body1Regular label-edit">Genero</label>
+                <input id="lastName" name="lastName" class="ms-1 edit body1Regular form-control" type="text"
+                    placeholder="">
+            
+            <div class="campo">
+                <label id="label-edit" for="id" class="form-label body1Regular label-edit">Id</label>
+                <input id="id" name="id" class="ms-1 edit body1Regular form-control" type="text" placeholder=""
+                    readonly>
+            </div>
+            <!-- botones -->
+            <div class="">
+                <button id="btnGuardar" type="submit"
+                    class="btn btn-secondary buttom guardar-cambios">Guardar</button>
+            </div>
+            <div class="">
+                <button id="btnCorreo" type="button" class="btn btn-secondary buttom guardar-cambios">Buscar por
+                    correo</button>
+            </div>
+            <div class="">
+                <button id="btnEditar" type="button"
+                    class="btn btn-secondary buttom guardar-cambios">Editar</button>
+            </div>
+            <div class="">
+                <button id="btnEliminar" type="button"
+                    class="btn btn-secondary buttom guardar-cambios">Eliminar</button>
+            </div>
+        </form>
+
+        <br><br>
+
+        <a href="./index.html">Atrás</a>
+    </div>
+
+    
+
+
+
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

@@ -1,4 +1,7 @@
 let btnCategory1 = document.getElementById('btnCategory1')
+let btnCategory2 = document.getElementById('btnCategory2')
+
+let divForm = document.querySelector('.div-usuario')
 
 const getElementos = async (url)=>{
     let mostrarElementos =  document.querySelector('.grid-elementos')
@@ -31,4 +34,12 @@ const getElementos = async (url)=>{
 btnCategory1.addEventListener('click', ()=>{
     getElementos('https://crudmariobros.herokuapp.com/mariobros')
 })
+
+
+btnCategory2.addEventListener('click', ()=>{
+
+    window.location.href = './formulario.html'
+    
+})
+
 

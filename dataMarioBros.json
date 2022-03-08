@@ -35,6 +35,12 @@
             "name" : "Toad",
             "genero": "Femenino",
             "img": "https://static.wikia.nocookie.net/mario/images/2/2c/Toad_super_mario.png/revision/latest/scale-to-width-down/1000?cb=20161129175624&path-prefix=es"
-        }        
+        },
+        {
+            "id": 7,
+            "name" : "Princesa Rosalina",
+            "genero": "Femenino",
+            "img": "https://static.wikia.nocookie.net/mario/images/5/56/Rosalina-MPTop100-Transparent.png/revision/latest?cb=20171120160921&path-prefix=es"
+        }         
     ]
 }

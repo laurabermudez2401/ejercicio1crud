@@ -14,7 +14,8 @@ const getElementos = async (url)=>{
         mostrarElementos.innerHTML += `
         <div class="col elementos">
             <a href="#" class="enlace-detalle-elemento">
-                <div class="card bg-dark text-white gradiente">                
+                <div class="card bg-dark text-white gradiente"> 
+                                   
                     <img src="${img}" class="card-img" alt="...">
                     <div class="card-img-overlay">
                             <h5 class="card-title body2Bold">${name}</h5>

@@ -20,7 +20,6 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    border: 5px solid black;
     margin: 20px 100px;
     padding: 20px;
     text-align: center;
@@ -28,17 +27,61 @@ header {
 .h2_header {
     padding: 0px 50px;
 }
+
+.img_star {
+    width: 100px;
+}
 .img_hongo {
-    width: 80px;
+    width: 60px;
+    height: 70px;
     text-decoration: none;
     background-color: transparent;
-
+}
+.bueno {
+    width: 70px;
+    height: 70px;
 }
 
 .btn_hongo {
     text-decoration: none;
     background-color: transparent;
     border: none;
+    color: #ffffff;
+}
+
+.btn_options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 50px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    width: 250px;
+}
+
+.a_hongomalo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+.a_hongomalo:hover {
+    color: rgb(8, 218, 255);
 }
 
 .grid-elementos {
@@ -49,7 +92,7 @@ header {
 
 .elementos {
     width: 20%;
-    background-color: #1C80DE;
+    background-color: #023a68;
     border: none;
     border-radius: 15px;
     margin: 20px;
@@ -91,3 +134,6 @@ header {
     margin-right: 135px;
     width: 324px !important;
 }
+
+/* Formulario */
+

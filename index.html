@@ -20,60 +20,44 @@
             <div class="btn_content">
                 <!-- categoria1 -->
                     <h2 class="h2_header">Descubre los personajes del Mundo de Mario!</h2>
-                    <button id="btnCategory1" class="btn_hongo">
-                                <img src="./img/hongo.png" class="img_hongo">
+                    <button class="btn_hongo">
+                                <img src="./img/star.png" class="img_star">
                     </button>
             </div>
     </header>
     <main>
+
+        <div class="btn_options">
+            <div class="sub_btn">
+                <button id="btnCategory1" class="btn_hongo">
+                    <img src="./img/hongo.png" class="img_hongo bueno">
+                </button>
+                <p>Ver personaje!</p>
+            </div>
+            
+            <div class="sub_btn">
+                    <a href="./formulario.html" class="a_hongomalo">
+                        <img src="./img/hongomalo.png" class="img_hongo">
+                    <p>Crear personajes!</p>
+                    </a>
+            </div>
+
+            <div class="sub_btn">
+                <a href="https://crudmariobros.herokuapp.com/mariobros" class="a_hongomalo">
+                    <img src="./img/flor.png" class="img_hongo">
+                <p>Ir a la API!</p>
+                </a>
+        </div>
+            
+            
+        </div>
         
         <div class="container-fluid mt-4 mb-3">
             <div class="row row-cols-2 row-cols-md-2 g-4 grid-elementos">
 
             </div>
         </div>
-        <div class="div-usuario">
-            <!-- contenedor para ver los datos -->
-            <div class="row usuario">
-                <h1 class="Headline1">Crear Tu Personaje </h1>
-                <div class="col datos">
-
-                </div>
-            </div>
-            <!-- formulario -->
-            <form id="formulario">
-                <div class="campo">
-                    <label for="name" class="form-label body1Regular label-edit">Nombre</label>
-                    <input id="name" name="name" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
-                </div>
-                <div class="campo">
-                    <label for="lastName" class="form-label body1Regular label-edit">Genero</label>
-                    <input id="lastName" name="lastName" class="ms-1 edit body1Regular form-control" type="text"
-                        placeholder="">
-                
-                <div class="campo">
-                    <label id="label-edit" for="id" class="form-label body1Regular label-edit">Id</label>
-                    <input id="id" name="id" class="ms-1 edit body1Regular form-control" type="text" placeholder=""
-                        readonly>
-                </div>
-                <!-- botones -->
-                <div class="">
-                    <button id="btnGuardar" type="submit"
-                        class="btn btn-secondary buttom guardar-cambios">Guardar</button>
-                </div>
-                <div class="">
-                    <button id="btnCorreo" type="button" class="btn btn-secondary buttom guardar-cambios">Buscar por
-                        correo</button>
-                </div>
-                <div class="">
-                    <button id="btnEditar" type="button"
-                        class="btn btn-secondary buttom guardar-cambios">Editar</button>
-                </div>
-                <div class="">
-                    <button id="btnEliminar" type="button"
-                        class="btn btn-secondary buttom guardar-cambios">Eliminar</button>
-                </div>
-            </form>
+        
         </div>
     </main>
 

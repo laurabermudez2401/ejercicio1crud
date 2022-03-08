@@ -13,7 +13,7 @@ body{
 .div-usuario{
     width: 40%;
     padding: 2%;
-    background-color: rgb(83, 119, 119);
+    background-color: transparent;
     margin: 0 auto;
     margin-top: 4%;
     border-radius: 20px;
@@ -25,15 +25,19 @@ form{
 
 }
 
+
 .form-control{
     width: 50%;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 2%;
     font-size: 1rem;
     margin-bottom: 4%;
     margin-left: 2%;
+    border: 2px solid black;
 }
-
+.campo {
+    justify-content: space-around;
+}
 .form-label{
     font-size: 1.5rem;
     font-weight: 600;
@@ -48,19 +52,31 @@ form{
 }
 
 .atras{
-    background-color: blue;
-    padding: 2% 6%;
-    border-radius: 5%;
+    background-color: #FFC300;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
     text-decoration: none;
-    color: white;
+    color: rgb(7, 0, 0);
     font-weight: 600;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 140px;
+    text-align: center
 }
 
 .buttom{
-    padding: 2%;
-    border-radius: 5px;
+    padding: 2% 4%;
+    border-radius: 15px;
     font-size: 1rem;
-    background-color: rgb(211, 208, 205);
+    background-color: rgb(2, 1, 0);
     font-weight: 600;
+    border: none;
+    color: white;
+}
+
+.img_bala {
+    width: 70px;
 }
